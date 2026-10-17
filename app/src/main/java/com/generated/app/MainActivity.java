@@ -7,12 +7,12 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -245,7 +245,7 @@ public class MainActivity extends Activity implements MusicPlayerService.PlayerL
             TextView tv = new TextView(this);
             tv.setText("עדיין אין שירים שאהבת. לחץ על לב בשירים כדי להוסיף למועדפים.");
             tv.setTextColor(0xFFB3B3B3);
-            tv.setTextSize(14sp);
+            tv.setTextSize(14);
             tv.setPadding(0, 12, 0, 12);
             likedContainer.addView(tv);
         } else {
@@ -395,41 +395,3 @@ public class MainActivity extends Activity implements MusicPlayerService.PlayerL
         }
     }
 }
-=====IMPORT: android.app.Activity=====
-=====IMPORT: android.os.Bundle=====
-=====IMPORT: android.widget.TextView=====
-=====IMPORT: android.view.View=====
-=====IMPORT: android.widget.LinearLayout=====
-=====IMPORT: android.widget.FrameLayout=====
-=====IMPORT: android.widget.ImageView=====
-=====IMPORT: android.widget.RelativeLayout=====
-=====IMPORT: android.widget.SeekBar=====
-=====IMPORT: android.widget.ListView=====
-=====IMPORT: android.widget.Button=====
-=====IMPORT: android.widget.Toast=====
-=====IMPORT: android.content.pm.PackageManager=====
-=====IMPORT: android.Manifest=====
-=====IMPORT: android.os.Build=====
-=====IMPORT: android.view.LayoutInflater=====
-=====IMPORT: java.util.List=====
-=====IMPORT: java.util.Locale=====
-=====IMPORT: com.generated.app.Song=====
-=====IMPORT: com.generated.app.MusicPlayerService=====
-=====IMPORT: com.generated.app.MusicLibraryManager=====
-=====IMPORT: com.generated.app.SongAdapter=====
-=====IMPORT: com.generated.app.R=====
-=====IMPORT: android.content.Context=====
-=====IMPORT: android.media.MediaPlayer=====
-=====IMPORT: android.net.Uri=====
-=====IMPORT: android.os.Handler=====
-=====IMPORT: android.os.Looper=====
-=====IMPORT: java.io.File=====
-=====IMPORT: java.util.ArrayList=====
-=====IMPORT: android.content.ContentResolver=====
-=====IMPORT: android.database.Cursor=====
-=====IMPORT: android.provider.MediaStore=====
-=====IMPORT: java.util.Collections=====
-=====IMPORT: java.util.Comparator=====
-=====IMPORT: java.util.Random=====
-=====IMPORT: android.view.ViewGroup=====
-=====IMPORT: android.widget.BaseAdapter=====
