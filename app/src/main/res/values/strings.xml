@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ספוטיפיי אופליין</string>
+    <string name="tab_home">בית</string>
+    <string name="tab_smart">מיקס חכם</string>
+    <string name="tab_library">השירים שלי</string>
+    <string name="permission_required">נדרשת גישה לקבצי מוזיקה במכשיר כדי לנגן שירים.</string>
+    <string name="grant_permission">אפשר גישה</string>
+    <string name="no_songs">לא נמצאו שירים במכשיר</string>
+    <string name="smart_mix_desc">פלייליסט חכם שלומד את הטעם שלך לפי מה שאתה אוהב ומאזין לו!</string>
+    <string name="play_smart_mix">נגן מיקס חכם</string>
+    <string name="liked_songs">שירים שאהבת</string>
+    <string name="all_songs">כל השירים</string>
+    <string name="now_playing">מנגן כעת</string>
+    <string name="unknown_artist">אמן לא ידוע</string>
+    <string name="unknown_album">אלבום לא ידוע</string>
+</resources>
